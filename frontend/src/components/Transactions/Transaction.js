@@ -14,7 +14,7 @@ function Transactions() {
         getExpenses()
     }, [])
     return (
-        //To Do: change the formatting for salary and expirence.
+        //To Do: change the formatting for salary and expences.
         <DashboardStyled>
             <InnerLayout>
                 <h1>All Transactions</h1>

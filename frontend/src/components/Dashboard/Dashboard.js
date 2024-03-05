@@ -17,6 +17,7 @@ function Dashboard() {
         <DashboardStyled>
             <InnerLayout>
                 <h1>Dashboard</h1>
+                
                 <div className="stats-con">
                     <div className="chart-con">
                         <Chart />
@@ -57,11 +58,11 @@ const DashboardStyled = styled.div`
             height: 400px;
             .amount-con{
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(5, 1fr);
                 gap: 1rem;
                 margin-top: 1rem;
-                .income, .expense{
-                    grid-column: span 2;
+                .income, .expense, .balance{
+                    grid-column: span 3;
                 }
                 .income, .expense, .balance{
                     background: #FCF6F9;
@@ -76,7 +77,7 @@ const DashboardStyled = styled.div`
                 }
 
                 .balance{
-                    grid-column: 2 / 4;
+                    grid-column: 1 / 4;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
