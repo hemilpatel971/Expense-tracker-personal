@@ -20,8 +20,6 @@ function History() {
                         }}>
                             {title}
                         </p>
-                        
-                        
                         <p style={{
                             color: type === 'expense' ? 'red' : 'green',
                             fontWeight: 'bold'
